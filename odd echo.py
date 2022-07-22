@@ -1,2 +1,5 @@
-for x in range(1, int(input()) + 1):
-    print(x, "Abracadabra")
+n = int(input())
+for i in range(n):
+    word = input()
+    if i % 2 == 0:
+        print(word)
